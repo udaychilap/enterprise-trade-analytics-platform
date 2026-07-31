@@ -1,0 +1,10 @@
+application:
+  name: Trade Analytics Platform
+
+spark:
+  master: local[*]
+  appName: TradeAnalytics
+
+paths:
+  trades: data/bronze/trades.csv
+  securities: data/reference/securities.csv
